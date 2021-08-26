@@ -1,0 +1,234 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: home;
+	src: url(../../fonts/Homenaje-Regular.ttf);
+}
+@font-face{
+	font-family: kerli-one;
+	src: url(../../fonts/LeckerliOne-Regular.ttf);
+}
+
+
+@font-face{
+	font-family: Exo;
+	src: url(../../fonts/Exo/Exo-MediumItalic.ttf);
+}
+@font-face{
+	font-family: logo;
+	src: url(../../fonts/Knewave-Regular.ttf);
+}
+
+nav{
+  	background-image: url(../../images/wave8.png);
+    justify-content: center;
+    margin: 0px auto;
+    padding: 14px 0;
+    font-size: 22px;
+    font-family: home;
+    margin-top: 120px;
+}
+
+nav .nav-menu a:nth-child(2){
+  color:  #00c3ed;  
+}
+
+header{
+    background-image: url(../../images/image-36-copyright_01.jpg);
+    height: 22.65rem;
+    text-align: center;
+    padding-top: 103px;
+}
+
+header ul{
+	display:inline-flex;
+	font-family: home;
+	font-size: 30px;
+
+}
+
+header li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+header li a:hover{
+	text-decoration: none;
+	color: #f7cb41;
+}
+
+header li{
+	list-style-type: none;
+	color: #fff;
+	margin-left: 7px;
+}
+
+header li:nth-child(3){
+	color: #f7cb41;
+}
+
+.who-a-we{
+	font-family: kerli-one;
+	color: #efc12f;
+  	text-align: center;
+}
+
+.specialist h1{
+	font-family: Exo;
+	color: #06175c;
+	font-size: 50px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+}
+
+.special{
+    text-align: center;
+}
+
+.spec-i{
+  color: #00c3ed; 
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+}
+
+.special p{
+  color: #626085;
+  font-size: 17px;
+}
+
+.special button{
+  color: #fff;
+  background-color: #00c3ed;
+  border-radius: 0;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: -webkit-pictograph;
+  margin: 50px 0 85px 0;
+}
+
+.special button:hover{
+  background-color: #f7cb41;
+  color: #06175c;
+}
+
+.blog{
+	text-align: center;
+	margin: 0;
+}
+
+.blog h3{
+	font-family: kerli-one;
+	color: #efc12f;
+  	text-align: center;
+}
+
+.blog h1{
+	font-family: Exo;
+	color: #06175c;
+	font-size: 50px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+}
+.art-cent{text-align: center;}
+
+.articles{
+	background-color: #e9f2ff; 
+}
+
+.articles h4{
+	font-family: Exo;
+	color: #06175c;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.articles img:hover{	
+	box-shadow: 0px 0px 10px 0px #818582;
+}
+
+.articles h4:hover{
+	color:  #efc12f;
+}
+
+.marg-bot{
+ 	margin-bottom: 25px;
+ }
+
+.articles p{
+	color:#626085;
+	text-align: center;
+	font-size: 16px;
+}
+
+.skills{	
+    background: #0b1e70 url(../../images/wave9.png) no-repeat center bottom;
+    padding-top: 73px;
+    min-height: 550px;	
+    color: #fff;
+}
+
+.skills h3{
+	font-family: kerli-one;
+	color: #efc12f;
+}
+
+.skill-center{
+	text-align: center;
+}
+
+.skill-i{
+  color: #00c3ed; 
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.skills h1{
+	font-family: Exo;
+	font-size: 50px;
+  	text-transform: uppercase;
+  	font-weight: 600;	
+}
+
+.skills p{
+    margin-bottom: 3px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.skills span{
+	float: right;
+	font-size: 15px;
+}
+
+.progress-edit{
+	height: 8px;
+    border-radius: 1px;
+}
+
+.mission{
+	padding: 15px 0;
+}
+
+.mission h1{
+	font-family: Exo;
+    color: #06175c;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;	
+
+}
+
+.mission p{
+	color: #000;
+    font-family: 'home';
+    text-align: center;
+    font-size: 25px;
+}

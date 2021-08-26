@@ -1,0 +1,56 @@
+body{
+	padding:0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: home;
+	src: url(../../fonts/Homenaje-Regular.ttf);
+}
+@font-face{
+	font-family: kerli-one;
+	src: url(../../fonts/LeckerliOne-Regular.ttf);
+}
+
+
+@font-face{
+	font-family: Exo;
+	src: url(../../fonts/Exo/Exo-MediumItalic.ttf);
+}
+
+
+nav{
+    justify-content: center;
+    margin: 0px auto;
+    padding: 14px 0;
+    font-size: 20px;
+    font-family: home;
+}
+
+.nav-menu{
+    display: inline-flex;
+    float: left;
+    padding: 0;
+}	
+nav li{
+	list-style-type: none;
+	margin-left:29px;
+}
+nav .nav-menu a {
+	color: #000;
+	margin-left: 60px;	
+}
+nav .nav-menu a:first-child{
+	margin:0;
+}
+
+nav a:hover{
+	color: #efc12f; 
+	text-decoration: none;
+}
+.head-col-2{
+	padding-left: 90px;
+}
+.head-col-2 a{
+	color: #000;
+}

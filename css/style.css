@@ -1,0 +1,270 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: home;
+	src: url(../fonts/Homenaje-Regular.ttf);
+}
+
+@font-face{
+	font-family: Exo;
+	src: url(../fonts/Exo/Exo-MediumItalic.ttf);
+}
+
+@font-face{
+	font-family: kerli-one;
+
+	src: url(../fonts/LeckerliOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: logo;
+	src: url(../fonts/Knewave-Regular.ttf);
+}
+
+nav{
+    height: 50px;
+    width: 90%;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 11px 0;
+    font-size: 20px;
+ 	  position: relative;
+    font-family: home;
+    top: 70px;
+    z-index: 25;
+}
+
+.logo{
+	position:absolute;
+	display: inline-flex;
+	left: 51px;
+    top: -31px;
+}
+
+.logo h1{
+	font-family: logo;
+	color: #00c3ed;
+	font-size: 50px;
+    margin-top: 0;
+}
+
+.logo h3{
+	color: #fff;
+	font-size: 27px;
+    font-family: 'Exo';
+    margin-left: 8px;
+} 
+
+.nav-menu{
+    display: inline-flex;
+    float: left;
+    padding: 0;
+   	margin-top: -10px;
+}	
+nav li{
+	list-style-type: none;
+	margin-left:29px;
+}
+nav .nav-menu a {
+	color: #fff;
+  margin-left: 36px;
+  font-size: 21px;
+}
+nav .nav-menu a:first-child{
+	margin:0;
+}
+
+nav a:hover{
+	color: #efc12f; 
+	text-decoration: none;
+}
+.head-col-2{
+	padding-left: 52px;
+    margin-top: -8px;
+    font-size: 21px;
+}
+.head-col-2 a{
+	color: #fff;
+}
+
+.headericon-1{
+	margin: 310px 0px;
+	font-size: 30px;
+	color: #efc12f;
+	opacity: 1;
+    font-size: 40px;
+
+}
+.headericon-2{
+	margin: 370px 0px;
+	font-size: 30px;
+	color: #efc12f;
+	opacity: 1;	
+    font-size: 40px;
+
+
+
+}
+.carousel {
+    position: relative;
+    bottom: 50px;
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgb(0 0 0 / 0%) 100%) !important;
+}
+
+.w-there{
+	text-align: center;
+	font-family: kerli-one;
+	color: #efc12f;
+}
+.services{
+	font-family: Exo;
+	color: #06175c;
+	text-align: center;
+}
+.services h1{
+	font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.containerr {
+    position: absolute;
+    left: 0px;
+    top: -4px;
+    transform: translate(-50%, -50%);
+}
+
+.dis-none{
+	display: none;
+}
+
+.f-logo{
+  position: absolute;
+  display: inline-flex;
+  left: 510px;
+  top: 20px;
+}
+
+.f-logo h1{
+    font-family: logo;
+    color: #00c3ed;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.f-logo h3{
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Exo';
+    margin-left: 8px;
+}
+
+footer{
+  background-image: linear-gradient(to bottom right,#06175c, #1d1da8);
+}
+
+footer h1:hover{
+  color: #f7cb41;
+}
+.footer-top {
+  position: relative;
+    min-height: 103px;
+    border-bottom: 2px solid #f7cb41;
+}
+.newsletter{
+  margin: 20px 0;
+}
+
+footer input{
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    margin-left: 40px;
+}
+ 
+footer button{
+  padding: 7px 18px;
+    font-size: 18px;
+    background-color: #f7cb41;
+    border: none;
+    font-family: -webkit-pictograph;
+    color: #000;
+    float: right;
+    margin-right: 40px;
+    font-weight: 600;
+} 
+
+footer button:hover{
+  background-color:#00c3ed;
+  color: white;
+}
+
+.email{
+  margin: 50px 0px;
+}
+
+footer h3{
+  color: #fff;
+  font-family: Exo;
+  text-align: center;
+  margin-bottom: 19px;
+
+}
+
+.footer-icon{
+  color: #00c3ed;
+  font-size: 35px;
+
+}
+
+.icon-div-1{
+  margin-top: 20px;
+  margin-bottom: 23px;
+}
+
+.icon-div{
+  margin-bottom: 23px;
+}
+
+footer h4{
+  color: #fff;
+  font-family: Exo;
+  text-align: center;
+}
+
+footer span{
+  color: #fff;
+  font-size: 15px;
+    margin-left: 12px;
+
+}
+
+.f-img-l{
+    margin-left: 60px;
+    margin-bottom: 14px;
+}
+
+.f-img-r{
+  float: right;
+  margin-right: 60px;
+}
+
+.f-container{
+    position: absolute;
+    left: 855px;
+    top: 52px;
+    transform: translate(-50%, -50%);
+}
+
+.l-h3{
+  margin-top:22px;
+}
+
+.l-h1{
+  margin-top: -10px;
+}
